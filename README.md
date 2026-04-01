@@ -33,17 +33,24 @@ Fake-News-Generator/
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/fake-news-generator.git
 cd fake-news-generator
+
+
 2️⃣ Create Virtual Environment (Optional but Recommended)
 python -m venv venv
 venv\Scripts\activate   # For Windows
 source venv/bin/activate  # For Mac/Linux
+
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
+
+
 4️⃣ Add API Key
 
 Create a .env file and add your API key:
 
 OPENAI_API_KEY=your_api_key_here
+
 
 ▶️ Run the Application
 streamlit run main.py
