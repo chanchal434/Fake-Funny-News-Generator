@@ -25,7 +25,7 @@ Fake-News-Generator/
 │
 ├── main.py            # Streamlit app
 ├── utils.py           # Helper functions
-├── api_handler.py     # API integration
+├── api_handler.py     # API integration and processing data
 ├── requirements.txt   # Dependencies
 └── README.md          # Project documentation
 
