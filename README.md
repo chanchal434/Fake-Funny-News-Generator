@@ -104,7 +104,7 @@ Python Community
 
 💡 Author
 
-Your Name
+Chanchal Choudhary
 
 GitHub: https://github.com/chanchal434
 
