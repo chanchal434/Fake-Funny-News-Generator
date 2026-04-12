@@ -1,4 +1,4 @@
-📰 Fake News Generator
+# 📰 Fake News Generator
 
 An AI-powered Fake News Generator built with Python & Streamlit that creates humorous, creative, and entertaining fake news articles.
 Users can either generate news automatically using AI APIs or customize inputs like place, person, and news type.
