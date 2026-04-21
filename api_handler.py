@@ -15,10 +15,7 @@ if api_key:
     genai.configure(api_key=api_key)
 
 def generate_fake_news(mode, place, person, news_type, tone, custom_prompt=""):
-    """
-    Generates fake news using Google Gemini. 
-    Falls back to a fun mock generator if no API key is found in the .env file.
-    """
+    
     if not api_key:
         return generate_mock_news(place, person, news_type, tone)
 
