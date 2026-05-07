@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 # Load the environment variables from the .env file
 load_dotenv()
 
-# Automatically fetch the key from the environment
+# Automatically fetch the key from the environment and update your .env file
 api_key = os.getenv("GEMINI_API_KEY")
 
 # Configure the Gemini API if the key exists
