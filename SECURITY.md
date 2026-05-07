@@ -1,4 +1,4 @@
-# Security Policy and privacy
+# Security Policy and Privacy
 
 ## Supported Versions
 
