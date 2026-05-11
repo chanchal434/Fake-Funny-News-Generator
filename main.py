@@ -8,6 +8,11 @@ st.set_page_config(
     page_icon="📰",
     layout="centered"
 )
+
+# --- Initialize Session State for History ---
+if "news_history" not in st.session_state:
+    st.session_state.news_history = []
+
 # --- Sidebar UI ---
 with st.sidebar:
     st.title("⚙️ Settings & Controls")
@@ -88,7 +93,7 @@ if st.session_state.news_history:
     
     st.divider()
     
-    # Actions (Download & Copy)
+    #Actions (Download & Copy)
     text_to_download = f"{latest_news['headline']}\n\n{latest_news['content']}"
     
     st.download_button(
